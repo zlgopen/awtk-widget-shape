@@ -1,0 +1,7 @@
+LIBRARY   shape
+EXPORTS
+    shape_register
+    shape_supported_render_mode
+    shape_create
+    shape_cast
+    shape_set_value

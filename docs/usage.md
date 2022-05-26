@@ -33,10 +33,10 @@
 如：
 ```xml
     <shape value="hline()" />
-    <shape value="hline(stroke=red)" />
+    <shape value="hline(stroke=red,lw=3)" />
     <shape value="hline(on=5,off=5)" />
     <shape value="hline(y=0.1)" />
-    <shape value="hline(y=0.9)" line_width="5" />
+    <shape value="hline(y=0.9)" />
 ```
 
 ## 2.vline 
@@ -55,7 +55,7 @@
     <shape value="vline()" />
     <shape value="vline(on=5,off=5)" />
     <shape value="vline(x=0.1)" />
-    <shape value="vline(x=0.9)" line_width="5" />
+    <shape value="vline(x=0.9)" />
 ```
 
 ## 3.line 
@@ -74,7 +74,7 @@
 ```xml
     <shape value="line()"/>
     <shape value="line(on=5,off=5)"/>
-    <shape value="line(x1=0.2,y1=0.2,x2=0.8,y2=0.8)" line_width="2" />
+    <shape value="line(x1=0.2,y1=0.2,x2=0.8,y2=0.8)"/>
 ```
 
 ## 4.rect
